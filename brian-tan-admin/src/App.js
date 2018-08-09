@@ -30,7 +30,7 @@ class App extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    showConceptGrid: state.showConceptGrid
+    showConceptGrid: state.ui.showConceptGrid
   }
 };
 
